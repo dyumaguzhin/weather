@@ -9,7 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let networkWeatherManager = NetworkWeatherManager()
+    
+    @IBOutlet weak var weatherLable: UILabel!
+    
+    var networkWeatherManager = NetworkWeatherManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
