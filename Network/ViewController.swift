@@ -9,18 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var cityLable: UILabel!
+    @IBOutlet weak var feelsLikeTemperatureLable: UILabel!
+    @IBOutlet weak var temperatureLable: UILabel!
     
-    @IBOutlet weak var weatherLable: UILabel!
     
     var networkWeatherManager = NetworkWeatherManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        networkWeatherManager.fetchCurrentWearther(forCity: "London")
+        networkWeatherManager.delegate = self
+        networkWeatherManager.fetchCurrentWearther(forCity: "Kazan")
 
+
+        }
 
     }
-
-
+    
+extension ViewController: NetworkWeatherManagerDelegate {
+    func updateInterface(_: NetworkWeatherManager, with currentWeather: CurrentWeather) {
+        print(currentWeather.cityName)
+    }
+    
+    
 }
+

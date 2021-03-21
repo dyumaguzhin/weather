@@ -18,6 +18,7 @@
 		0F831DD825FFCBFE0031CF4E /* NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F831DD725FFCBFE0031CF4E /* NetworkUITests.swift */; };
 		0F831DE925FFD15B0031CF4E /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F831DE825FFD15B0031CF4E /* NetworkWeatherManager.swift */; };
 		0F831DFD25FFD8B70031CF4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F831DFC25FFD8B70031CF4E /* Constants.swift */; };
+		0FE1A54926075A3200C1FC3B /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1A54826075A3200C1FC3B /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0F831DD925FFCBFE0031CF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F831DE825FFD15B0031CF4E /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		0F831DFC25FFD8B70031CF4E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0FE1A54826075A3200C1FC3B /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +110,10 @@
 				0F831DB525FFCBF70031CF4E /* AppDelegate.swift */,
 				0F831DB725FFCBF70031CF4E /* SceneDelegate.swift */,
 				0F831DE825FFD15B0031CF4E /* NetworkWeatherManager.swift */,
-				0F831DFC25FFD8B70031CF4E /* Constants.swift */,
+				0FE1A54826075A3200C1FC3B /* CurrentWeather.swift */,
 				0F3CFBA32603DE7E0085720E /* CurrentWeatherData.swift */,
 				0F831DB925FFCBF70031CF4E /* ViewController.swift */,
+				0F831DFC25FFD8B70031CF4E /* Constants.swift */,
 				0F831DBB25FFCBF70031CF4E /* Main.storyboard */,
 				0F831DBE25FFCBFD0031CF4E /* Assets.xcassets */,
 				0F831DC025FFCBFD0031CF4E /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				0F831DFD25FFD8B70031CF4E /* Constants.swift in Sources */,
 				0F831DBA25FFCBF70031CF4E /* ViewController.swift in Sources */,
 				0F3CFBA42603DE7F0085720E /* CurrentWeatherData.swift in Sources */,
+				0FE1A54926075A3200C1FC3B /* CurrentWeather.swift in Sources */,
 				0F831DB625FFCBF70031CF4E /* AppDelegate.swift in Sources */,
 				0F831DB825FFCBF70031CF4E /* SceneDelegate.swift in Sources */,
 				0F831DE925FFD15B0031CF4E /* NetworkWeatherManager.swift in Sources */,
