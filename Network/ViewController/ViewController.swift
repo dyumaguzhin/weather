@@ -27,8 +27,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        feelsLikeLable.text? = "Ощущается как: "
-        tempertureLableName.text? = "Температура: "
+        feelsLikeLable.text? = "Ощущается как:  "
+        tempertureLableName.text? = "Температура:  "
         
         networkWeatherManager.delegate = self
         networkWeatherManager.fetchCurrentWearther(forCity: "Kazan")
